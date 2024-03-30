@@ -1,0 +1,34 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.table-showColors tr:nth-child(odd) {
+  background: #333;
+}
+
+.table-showColors tr:nth-child(even) {
+  background: #555;
+}
+
+.table-showColors tr:hover {
+  background: #c4c4c4;
+  color: black;
+
+}
+
+.table tr:hover {
+  background: #c4c4c4;
+  color: black;
+
+}
+
+.pointer {
+  cursor: crosshair;
+}
+
+.pointer:hover {
+  background-color: #555;
+}
